@@ -22,8 +22,8 @@ Oyunun genel durumu ve seviye bazlı veriler iki ana yönetici ile kontrol edili
 * **Scene Persistence:** Seviye içindeki toplanabilir objelerin (altınlar vb.) durumu, oyuncu ölse bile sahne resetlenene kadar kalıcı olarak saklanır.
 
 ### 👾 Düşman Yapay Zekası ve Savaş
-* **Düşman Yapısı:** Düşmanlar, platformun kenarına geldiklerini (`OnTriggerExit2D`) algılayarak otomatik olarak yön değiştirirler.
-* **Combat:** Oyuncu, baktığı yöne doğru fizik tabanlı mermiler ateşleyebilir; mermiler oyuncunun baktığı yöne (`localScale.x`) göre fırlatılır ve düşmana temas ettiğinde hem düşmanı hem de mermiyi yok eder.
+* **Düşman Yapısı:** Düşmanlar, platformun kenarına geldiklerini  algılayarak otomatik olarak yön değiştirirler.
+* **Combat:** Oyuncu, baktığı yöne doğru fizik tabanlı mermiler ateşleyebilir; mermiler oyuncunun baktığı yöne  göre fırlatılır ve düşmana temas ettiğinde hem düşmanı hem de mermiyi yok eder.
 
 ---
 
@@ -48,6 +48,6 @@ Bu proje, Unity'nin teknik araçlarını öğrenmenin yanı sıra aşağıdaki a
 * **Teknik Yetkinlik:** Unity **Input System**, **Tilemap**, **Physics2D** ve **Cinemachine** gibi araçlar efektif kullanılmıştır.
 * **Kod Standartları:** Kod yapısında modülerlik ve okunabilirlik (Clean Code) prensiplerine sadık kalınmıştır.
 
-Bu proje, Unity'nin **Input System**, **Tilemap**, **Physics2D** ve **Cinemachine** gibi araçlarını efektif kullanmayı öğrenmek amacıyla tamamlanmıştır. Kod yapısında modülerlik ve okunabilirlik (Clean Code) prensiplerine sadık kalınmıştır.
+
 
 
